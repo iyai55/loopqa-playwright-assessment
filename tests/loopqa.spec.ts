@@ -35,13 +35,6 @@ for (const tc of testCases) {
             await expect(taskCard).toContainText(tag);
         }
 
-
-        console.log(tc);
-        console.log(tc.column);
-
-
-
-
     });
 
 };
