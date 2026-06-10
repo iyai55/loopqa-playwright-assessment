@@ -16,7 +16,7 @@ The test suite validates tasks, columns, and tags across multiple project boards
 
 ```text
 data/
-└── testCases.ts
+└── testCases.json
 
 tests/
 └── loopqa.spec.ts
