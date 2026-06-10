@@ -1,5 +1,5 @@
 import { test, expect, Page } from '@playwright/test';
-import { testCases } from '../data/testCases';
+import testCases from '../data/testCases.json';
 
 async function login(page: Page) {
     await page.goto("https://animated-gingersnap-8cf7f2.netlify.app/");
