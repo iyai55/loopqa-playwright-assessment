@@ -8,34 +8,38 @@ The test suite validates tasks, columns, and tags across multiple project boards
 
 ## Tech Stack
 
-* Playwright
-* TypeScript
-* Node.js
+- Playwright
+- TypeScript
+- Node.js
+
+## Setup and Preparation
+
+1. Clone the repository.
+2. Install project dependencies.
+3. Install Playwright browsers.
 
 ## Project Structure
 
-```text
 data/
 └── testCases.json
 
 tests/
 └── loopqa.spec.ts
-```
 
 ## Test Coverage
 
-* Implement user authentication
-* Fix navigation bug
-* Design system updates
-* Push notification system
-* Offline mode
-* App icon design
+- Implement User Authentication
+- Fix Navigation Bug
+- Design System Updates
+- Push Notification System
+- Offline Mode
+- App Icon Design
 
 ## Data-Driven Approach
 
-Test data is stored in `data/testCases.ts`.
+Test data is stored in `data/testCases.json`.
 
-The test suite dynamically generates test cases using a loop, reducing code duplication and improving maintainability.
+The test suite dynamically generates test cases from the data source, reducing code duplication and improving maintainability. New test scenarios can be added by updating the test data without modifying the test logic.
 
 ## Run Tests
 
@@ -43,4 +47,3 @@ The test suite dynamically generates test cases using a loop, reducing code dupl
 npm install
 npx playwright install
 npx playwright test
-```
